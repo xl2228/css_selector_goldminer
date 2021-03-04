@@ -1,0 +1,68 @@
+body{
+  height:100%;
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+.mainContainer{
+display: flex;
+flex-direction: column;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50vmin;
+  background-color: #DE2D02;
+}
+div > p{
+  font-size: 4vmin;
+  color: white;
+  font-weight: bold;
+}
+.boxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20vmin;
+}
+div.box{
+width: 8vmin;
+height: 8vmin;
+background-color: #DE2D02;
+text-align: center;
+color:#DE2D02;
+}
+
+div.goldBox{
+  width: 8vmin;
+  height: 8vmin;
+  background-color: #DE2D02;
+  text-align: center;
+  color:#DE2D02;
+}
+div.box:hover{
+  background-color: gold;
+}
+
+div.goldBox:hover{
+  color:white;
+  background-image: url("gold.png");
+  background-position: center;
+  background-size: 8vmin 8vmin;
+}
+p:nth-child(2){
+  color:gold;
+  font-size: 6vmin;
+}
